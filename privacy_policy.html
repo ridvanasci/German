@@ -5,55 +5,157 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learn German - Privacy Policy</title>
   <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      margin: 0;
+      padding: 0;
+      background-color: #f8fafc;
+    }
+
+    .wrapper {
       max-width: 800px;
       margin: 40px auto;
-      line-height: 1.6;
-      padding: 20px;
-      background: #f9f9f9;
-      color: #333;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
     }
-    h1, h2 {
-      color: #444;
+
+    .header-container {
+      border-bottom: 2px solid #eef2f5;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
     }
-    .contact {
+
+    h1 {
+      color: #1a365d;
+      font-size: 24px;
+      margin: 0 0 10px 0;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .meta-box {
+      background-color: #f1f5f9;
+      border-radius: 6px;
+      padding: 12px 15px;
+      margin-top: 15px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .meta-item {
+      margin: 4px 0;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    .meta-item strong {
+      color: #475569;
+    }
+
+    .intro-text {
+      font-size: 16px;
+      color: #334155;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #2c5282;
+      font-size: 18px;
       margin-top: 30px;
-      padding: 15px;
-      background: #eee;
-      border-left: 4px solid #666;
+      margin-bottom: 12px;
+      padding-left: 10px;
+      border-left: 4px solid #3182ce;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: #334155;
+      text-align: justify;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #334155;
+    }
+
+    li strong {
+      color: #1a202c;
+    }
+
+    .contact-card {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f0f4f8;
+      border-radius: 8px;
+      border-left: 4px solid #2b6cb0;
+    }
+
+    .contact-card p {
+      margin-bottom: 10px;
+    }
+    
+    .contact-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .email-link {
+      color: #2b6cb0;
+      font-weight: 600;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>"Learn German" Privacy Policy</h1>
-  <p><strong>Package Name:</strong> com.germanturkishapp</p>
-  <p><strong>Last Updated:</strong> July 4, 2026</p>
+  <div class="wrapper">
+    <div class="header-container">
+      <h1>"Learn German" Privacy Policy</h1>
+      <div class="meta-box">
+        <div class="meta-item"><strong>Package Name:</strong> com.germanturkishapp</div>
+        <div class="meta-item"><strong>Last Updated:</strong> July 4, 2026</div>
+      </div>
+    </div>
 
-  <p>This privacy policy governs your use of the software application "Learn German" for mobile devices, which was created by <strong>ReeOne</strong>.</p>
+    <p class="intro-text">This privacy policy governs your use of the software application <strong>"Learn German"</strong> for mobile devices, which was created by <strong>ReeOne</strong>.</p>
 
-  <h2>1. Information Collected</h2>
-  <p>The application does not collect users' personal information without permission. However, third-party services such as Google AdMob and Firebase may collect device information (device model, operating system, IP address, etc.).</p>
+    <h2>1. Information Collected</h2>
+    <p>The application does not collect users' personal information without explicit permission. However, integrated third-party services such as Google AdMob and Firebase may automatically collect certain device-specific details, including but not limited to the device model, operating system version, unique device identifiers, and IP addresses.</p>
 
-  <h2>2. Use of Information</h2>
-  <p>The collected information is only used to improve the application's services, fix bugs, and enhance the user experience. This information is not shared with third parties.</p>
+    <h2>2. Use of Information</h2>
+    <p>The information collected by third-party services is utilized strictly to monitor and analyze the performance of the application, troubleshoot technical errors, maintain stability, and enhance the overall user experience. This data is processed securely and is never shared with unauthorized third parties.</p>
 
-  <h2>3. Third-Party Services</h2>
-  <ul>
-    <li>Google AdMob (Advertising)</li>
-    <li>Google Firebase (Analytics and crash reporting)</li>
-  </ul>
+    <h2>3. Third-Party Services</h2>
+    <p>To deliver specific functionalities, the application utilizes the following trusted third-party providers:</p>
+    <ul>
+      <li><strong>Google AdMob:</strong> Used for serving contextually relevant advertisements.</li>
+      <li><strong>Google Firebase:</strong> Used for real-time analytics, performance tracking, and crash reporting.</li>
+    </ul>
 
-  <h2>4. Children's Privacy</h2>
-  <p>The application does not knowingly collect personal information from children under the age of 13. If such a situation is detected, the information will be deleted immediately.</p>
+    <h2>4. Children's Privacy</h2>
+    <p>We do not knowingly collect or solicit personal information from children under the age of 13. The application is designed with strict adherence to privacy regulations. If we discover that a child under 13 has inadvertently provided personal data, we will take immediate steps to delete such information permanently from our records.</p>
 
-  <h2>5. Changes</h2>
-  <p>This privacy policy may be updated from time to time. Updates will be shared on this page.</p>
+    <h2>5. Changes to This Policy</h2>
+    <p>This privacy policy may be updated periodically to reflect operational, legal, or regulatory modifications. We encourage users to review this page regularly to stay informed about how we protect their information. Continued use of the application signifies acceptance of any updates.</p>
 
-  <h2>6. Contact Us</h2>
-  <div class="contact">
-    <p>If you have any questions regarding privacy while using the application, or have questions about our practices, please contact <strong>ReeOne</strong> at:</p>
-    <p>📧 erptechnik@gmail.com</p>
+    <h2>6. Contact Us</h2>
+    <div class="contact-card">
+      <p>If you have any questions regarding privacy while using the application, or wish to inquire about our data practices, please contact <strong>ReeOne</strong> directly:</p>
+      <p>📧 <span class="email-link">erptechnik@gmail.com</span></p>
+    </div>
   </div>
 </body>
 </html>
